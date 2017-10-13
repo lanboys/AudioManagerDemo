@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.bing.lan.audio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/tv_silent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onSilent"
+        android:text="静音"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/tv_vibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onVibrate"
+        android:text="震动"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/tv_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onNormal"
+        android:text="正常"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/tv_raise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRaise"
+        android:text="增加音量"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/tv_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onLower"
+        android:text="降低音量"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>
